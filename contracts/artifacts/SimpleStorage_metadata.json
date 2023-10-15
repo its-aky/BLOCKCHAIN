@@ -99,7 +99,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "retrive",
+				"name": "retrieve",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -148,10 +148,10 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x04de9a6c24c20a10cc78049541568c9237a1e2109fa3f3a52de5d2391ab85323",
+			"keccak256": "0xad3ab1fed09f05a812e4716f4efc454e62a35b34138fa2accc0cd9b1d0e1d4c4",
 			"urls": [
-				"bzz-raw://373d6aaab2f4c69a64b6259fd809f3636fcf3502215e7d9a93b0d497846ada5d",
-				"dweb:/ipfs/QmT266LJMMkyY1sM2kqaEep5HcExmJpAUuscoNA1YQeC8a"
+				"bzz-raw://aabd802b353ff50fa3874b16b09e55f873fde743a99cb8f31678e47466a751c0",
+				"dweb:/ipfs/QmPqfMQ4zoqdQuuM4YjHYrr6o3jiGH6xhjVgxfMdo4Uq4p"
 			]
 		}
 	},
