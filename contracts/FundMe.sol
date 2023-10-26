@@ -7,6 +7,10 @@ pragma solidity >=0.6.0 <0.9.0;
 //Interfaces compile down to an ABI(Application Binary Interface)
 //ABI tells solidity and other programming languages how it can interact with a contract
 
+//import "@contracts/src/v0.6/interfaces/AggregatorV3Interface.sol";
+
+//OR copy paste the code
+
 interface AggregatorV3Interface {
 
   function decimals()
@@ -85,10 +89,18 @@ contract FundMe {
 
         //Pricefeeds:-   https://data.chain.link/
         // https://docs.chain.link/
-
-
-
-        
     }
+
+    function getVersion() public view returns(uint256) {
+        //Interfaces are used like structs 
+        AggregatorV3Interface priceFeed=AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306);//https://docs.chain.link/data-feeds/price-feeds/addresses?network=ethereum&page=1&search=
+        return priceFeed.version();
+
+        //used another contract from our own contract using interfaces
+
+    }
+        
+    
     
 }
+    

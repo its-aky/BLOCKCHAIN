@@ -30,6 +30,19 @@
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getVersion",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -56,10 +69,10 @@
 	},
 	"sources": {
 		"contracts/FundMe.sol": {
-			"keccak256": "0xb48d648b0ee23d4da715a071a63eddae15242b2db72ba8414bebc6994a1db6cf",
+			"keccak256": "0xfb521ca07ba746986da966e767701ca734276b7dd722b7ac1b296adbdbf2fdbf",
 			"urls": [
-				"bzz-raw://4b2f28cc7e6930698e2f9a051de2914db1a203717a9a958d99073e3aa1a5ea45",
-				"dweb:/ipfs/QmcbcJFwW7J8bANgeXFnZUKsx8A6dQLiqYvCxnyxChL5fy"
+				"bzz-raw://30a9f3ea7ed9f1afce751a7bb2bac18d02b0414d3988ede1bc660aeef8818341",
+				"dweb:/ipfs/QmNp9jsRLvzD2ex8UbQrepLkF2nwEBkia9nkSDVuGLomS9"
 			]
 		}
 	},
